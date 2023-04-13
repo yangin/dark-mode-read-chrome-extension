@@ -20,6 +20,10 @@ This is a chrome extension support reading in dark mode. And is friendly to the 
    git clone https://github.com/yangin/dark-mode-read-chrome-extension.git
    ```
 
+   or
+
+   Download `dark-mode-read-chrome-extension.zip`
+
 2. Open Chrome and go to `chrome://extensions/`
 
    Turn On `Developer mode`
