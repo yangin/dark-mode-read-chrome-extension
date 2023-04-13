@@ -1,0 +1,24 @@
+{
+  "name": "Dark Mode Read",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "/images/light128.png",
+    "32": "/images/light128.png",
+    "48": "/images/light128.png",
+    "128": "/images/light128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "/images/light128.png",
+      "32": "/images/light128.png",
+      "48": "/images/light128.png",
+      "128": "/images/light128.png"
+    }
+  },
+  "permissions": ["tabs", "activeTab", "scripting"],
+  "host_permissions": ["http://*/*", "https://*/*"]
+}
